@@ -11,8 +11,18 @@
 @implementation FISPlane
 
 //weight 255,000, topspeed 614, current speed and direction 0;
--(instancetype)init;
+-(instancetype)init {
+    self = [self initWithWeight:255000 topSpeed:614 currentSpeed:0 currentDirection:0];
+    _currentAltitude= 0;
+    _topAltitude    = 30000;
+    return self;
+}
 
--(void)increaseAltitude;
--(void)decreaseAltitude;
+-(void)increaseAltitude {
+    _currentAltitude = _topAltitude;
+}
+
+-(void)decreaseAltitude {
+    _currentAltitude = 0;
+}
 @end

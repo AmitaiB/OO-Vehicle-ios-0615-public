@@ -11,7 +11,7 @@
 @interface FISPlane : FISVehicle
 
 //code goes here
-@property (nonatomic) CGFloat altitude;
+@property (nonatomic) CGFloat currentAltitude;
 @property (nonatomic) CGFloat topAltitude; //30,000
 
 //weight 255,000, topspeed 614, current speed and direction 0;
