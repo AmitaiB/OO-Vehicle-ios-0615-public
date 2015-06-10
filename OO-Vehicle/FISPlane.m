@@ -10,6 +10,9 @@
 
 @implementation FISPlane
 
-//code goes here
+//weight 255,000, topspeed 614, current speed and direction 0;
+-(instancetype)init;
 
+-(void)increaseAltitude;
+-(void)decreaseAltitude;
 @end

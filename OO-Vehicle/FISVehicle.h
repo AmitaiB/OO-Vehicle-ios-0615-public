@@ -16,15 +16,16 @@
 @property (nonatomic) CGFloat currentSpeed;
 @property (nonatomic) CGFloat currentDirection;
 
--(void)increaseSpeed;
--(void)brake;
--(void)turnLeft;
--(void)turnRight;
-
 -(instancetype)init;
 -(instancetype)initWithWeight:(CGFloat)weight
                      topSpeed:(CGFloat)topSpeed
                  currentSpeed:(CGFloat)currentSpeed
              currentDirection:(CGFloat)currentDirection;
+
+-(void)increaseSpeed;
+-(void)brake;
+-(void)turnLeft;
+-(void)turnRight;
+
 
 @end
