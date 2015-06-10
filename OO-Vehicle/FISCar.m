@@ -10,7 +10,9 @@
 
 @implementation FISCar
 
-//code goes here
-
+//weight 1270, topspeed 88, current speed and direction 0
+-(instancetype)init {
+    return [self initWithWeight:1270 topSpeed:88 currentSpeed:0 currentDirection:0];
+}
 
 @end

@@ -10,7 +10,6 @@
 
 @interface FISCar : FISVehicle
 
-//code goes here
 //weight 1270, topspeed 88, current speed and direction 0
 -(instancetype)init;
 
