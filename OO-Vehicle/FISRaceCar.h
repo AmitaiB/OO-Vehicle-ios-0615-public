@@ -11,10 +11,10 @@
 @interface FISRaceCar : FISVehicle
 
 //code goes here
-@property (nonatomic, strong) NSArray *sponsers;
+@property (nonatomic, strong) NSArray *sponsors;
 
 
-//weight 1270, topSpeed 615, currentspeed and direction 0 - list of sponsers KFC, Taco Bell, and Pizza Hut
+//weight 1270, topSpeed 615, currentspeed and direction 0 - list of sponsors KFC, Taco Bell, and Pizza Hut
 -(instancetype)init;
 
 

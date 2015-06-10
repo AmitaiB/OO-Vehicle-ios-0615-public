@@ -10,10 +10,10 @@
 
 @implementation FISRaceCar
 
-//weight 1270, topSpeed 615, currentspeed and direction 0 - list of sponsers KFC, Taco Bell, and Pizza Hut
+//weight 1270, topSpeed 615, currentspeed and direction 0 - list of sponsors KFC, Taco Bell, and Pizza Hut
 -(instancetype)init {
     self = [self initWithWeight:1270 topSpeed:615 currentSpeed:0 currentDirection:0];
-    _sponsers = @[@"KFC", @"Taco Bell", @"Pizza Hit"];
+    _sponsors = @[@"KFC", @"Taco Bell", @"Pizza Hit"];
     return self;
 }
 
